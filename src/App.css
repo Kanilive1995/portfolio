@@ -95,6 +95,7 @@ p {
 
 .hero-buttons .secondary {
   background: transparent;
+  align-items: center;
   border: 2px solid #00f7ff;
   color: #00f7ff;
   box-shadow: none;
