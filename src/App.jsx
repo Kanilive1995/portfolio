@@ -1,5 +1,9 @@
-import './App.css' 
-
+import './App.css';
+import Email from './assets/Email.jpeg';
+import LinkedIn from './assets/LinkedIn.jpeg';
+import updatedheadshot from './assets/updatedheadshot.jpeg';
+import Dashboard from './assets/Dashboard.jpeg';
+import LinuxInstalled from './assets/Linux Installed.jpeg';
 
 function App() {
   return (
@@ -9,11 +13,11 @@ function App() {
         <h1>
           Kani <span>Moore-Singleton</span>
         </h1>
-          <img src="/images/updatedheadshot.jpeg" alt="Headshot" className="Headshot" />
+        <img src={updatedheadshot} alt="Headshot" className="Headshot" />
         <p>
           IT professional focused on Software/Application Development, Systems, and Security.
         </p>
-        <p>      
+        <p>
           I like my code, how I like my coffee: strong, efficient, and capable of keeping me up all night.
         </p>
 
@@ -30,28 +34,28 @@ function App() {
         <div className="skill">
           <p>JavaScript</p>
           <div className="bar">
-            <div style={{ width: "85%" }} />
+            <div style={{ width: '85%' }} />
           </div>
         </div>
 
         <div className="skill">
           <p>Python</p>
           <div className="bar">
-            <div style={{ width: "80%" }} />
+            <div style={{ width: '80%' }} />
           </div>
         </div>
 
         <div className="skill">
           <p>Linux</p>
           <div className="bar">
-            <div style={{ width: "70%" }} />
+            <div style={{ width: '70%' }} />
           </div>
         </div>
 
         <div className="skill">
           <p>Splunk / SIEM</p>
           <div className="bar">
-            <div style={{ width: "75%" }} />
+            <div style={{ width: '75%' }} />
           </div>
         </div>
       </section>
@@ -62,7 +66,7 @@ function App() {
 
         <div className="grid">
           <div className="project-card">
-            <img src="/images/Dashboard.jpeg" alt="Splunk Dashboard" />
+            <img src={Dashboard} alt="Splunk Dashboard" />
             <div className="overlay">
               <h3>Splunk Dashboard</h3>
               <p>Firewall & network traffic monitoring</p>
@@ -70,7 +74,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src="/images/Linux Installed.jpeg" alt="Kali Linux" />
+            <img src={LinuxInstalled} alt="Kali Linux" />
             <div className="overlay">
               <h3>Kali Linux Lab</h3>
               <p>UTM virtual lab on Apple Silicon</p>
@@ -82,10 +86,17 @@ function App() {
       {/* CONTACT */}
       <section className="contact" id="contact">
         <h2>Contact</h2>
-        <p> <img src="/images/Email.jpeg" alt="Email" className="email-logo" />Ladavemoore@gmail.com</p>
-        <p> <img src="/images/LinkedIn logo.jpeg" alt="LinkedIn" className="linkedin-logo" /> <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/">Kani Moore-Singleton</a></p>
+        <p>
+          <img src={Email} alt="Email" className="email-logo" /> 
+          <a href="mailto:Ladavemoore@gmail.com">Ladavemoore@gmail.com</a>
+        </p>
+        <p>
+          <img src={LinkedIn} alt="LinkedIn" className="linkedin-logo" /> 
+          <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
+        </p>
       </section>
     </>
-  )
+  );
 }
-export default App
+
+export default App;
