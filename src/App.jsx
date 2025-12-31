@@ -32,11 +32,11 @@ function App() {
         <h2>Skills</h2>
         <div className="skill">
           <p>JavaScript</p>
-          <div className="bar"><div style={{ width: '85%' }} /></div>
+          <div className="bar"><div style={{ width: '90%' }} /></div>
         </div>
         <div className="skill">
           <p>Python</p>
-          <div className="bar"><div style={{ width: '80%' }} /></div>
+          <div className="bar"><div style={{ width: '70%' }} /></div>
         </div>
         <div className="skill">
           <p>Linux</p>
@@ -44,7 +44,7 @@ function App() {
         </div>
         <div className="skill">
           <p>Splunk / SIEM</p>
-          <div className="bar"><div style={{ width: '75%' }} /></div>
+          <div className="bar"><div style={{ width: '85%' }} /></div>
         </div>
       </section>
 
@@ -72,14 +72,14 @@ function App() {
 
       {/* CONTACT */}
       <section className="contact" id="contact">
-        <h2>Contact</h2>
+        <h2>Contact Me</h2>
         <p>
           <img src={Email} alt="Email" className="email-logo" /> 
-          <a href="mailto:Ladavemoore@gmail.com">Ladavemoore@gmail.com</a>
+          <a href="mailto:Ladavemoore@gmail.com"> Ladavemoore@gmail.com</a>
         </p>
         <p>
           <img src={LinkedIn} alt="LinkedIn" className="linkedin-logo" /> 
-          <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/">Kani Moore-Singleton</a>
+          <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
         </p>
       </section>
     </>
