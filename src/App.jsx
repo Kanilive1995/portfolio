@@ -56,7 +56,10 @@ function App() {
             <img src={Dashboard} alt="Splunk Dashboard" />
             <div className="overlay">
               <h3>Splunk Dashboard</h3>
-              <p>Firewall & network traffic monitoring</p>
+              <p>Firewall & network traffic monitoring</p> 
+              <p> I design and built a custom Splunk dashboard demonstrating network traffic analysis by visualizing total connections, allowed connections, 
+                and blocked connections. This dashboard was created for to showcase proficiency in Splunk, SPL, and basic cybersecurity analysis.
+              </p>
             </div>
           </div>
 
@@ -64,7 +67,12 @@ function App() {
             <img src={linuxInstalled} alt="Kali Linux" />
             <div className="overlay">
               <h3>Kali Linux Lab</h3>
-              <p>UTM virtual lab on Apple Silicon</p>
+              <p>Kali Linux VM Setup on Mac using UTM</p>
+              <p> I successfully configured and launched Kali Linux virtual machine on a Mac environment using UTM. 
+                  This involved installing and integrating essential Linux tools, configuring display and system settings for optimal usability, 
+                  and familiarizing myself with the Linux command line interface. This setup provided a secure, isolated environment for 
+                  learning and practicing cybersecurity tools such as Nmap, Burp Suite, and Wireshark, laying the foundation for hands-on security testing and analysis.
+              </p>
             </div>
           </div>
         </div>
