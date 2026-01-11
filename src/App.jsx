@@ -1,9 +1,9 @@
 import './App.css';
 import email from './assets/images/email.jpeg';
 import linkedin from './assets/images/linkedin.jpeg';
-import updatedHeadshot from './assets/images/updated-Headshot.jpeg';
+import updatedHeadshot from './assets/images/updatedheadshot.jpeg';
 import dashboard from './assets/images/dashboard.jpeg';
-import linuxinstalled from './assets/images/linux-installed.jpeg';
+import linuxinstalled from './assets/images/linuxinstalled.jpeg';
 
 function App() {
   return (
