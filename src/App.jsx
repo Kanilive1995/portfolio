@@ -1,9 +1,9 @@
 import './App.css';
-import Email from './assets/images/Email.jpeg';
-import LinkedIn from './assets/images/LinkedIn.jpeg';
+import email from './assets/images/email.jpeg';
+import linkedin from './assets/images/linkedin.jpeg';
 import updatedHeadshot from './assets/images/updatedHeadshot.jpeg';
-import Dashboard from './assets/images/Dashboard.jpeg';
-import linuxInstalled from './assets/images/linuxInstalled.jpeg';
+import dashboard from './assets/images/dashboard.jpeg';
+import linuxinstalled from './assets/images/linuxInstalled.jpeg';
 
 function App() {
   return (
@@ -53,7 +53,7 @@ function App() {
         <h2>Projects</h2>
         <div className="grid">
           <div className="project-card">
-            <img src={Dashboard} alt="Splunk Dashboard" />
+            <img src={dashboard} alt="Splunk Dashboard" />
             <div className="overlay">
               <h3>Splunk Dashboard</h3>
               <p>Firewall & network traffic monitoring</p> 
@@ -64,7 +64,7 @@ function App() {
           </div>
 
           <div className="project-card">
-            <img src={linuxInstalled} alt="Kali Linux" />
+            <img src={linuxinstalled} alt="Kali Linux" />
             <div className="overlay">
               <h3>Kali Linux Lab</h3>
               <p>Kali Linux VM Setup on Mac using UTM</p>
@@ -82,11 +82,11 @@ function App() {
       <section className="contact" id="contact">
         <h2>Contact Me</h2>
         <p>
-          <img src={Email} alt="Email" className="email-logo" /> 
+          <img src={email} alt="email" className="email-logo" /> 
           <a href="mailto:Ladavemoore@gmail.com"> Ladavemoore@gmail.com</a>
         </p>
         <p>
-          <img src={LinkedIn} alt="LinkedIn" className="linkedin-logo" /> 
+          <img src={linkedin} alt="LinkedIn" className="linkedin-logo" /> 
           <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
         </p>
       </section>
