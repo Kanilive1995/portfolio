@@ -5,7 +5,7 @@ import updatedHeadshot from './assets/images/updatedheadshot.jpeg';
 import dashboard from './assets/images/dashboard.jpeg';
 import linuxinstalled from './assets/images/linuxinstalled.jpeg';
 import gitactions from './assets/images/gitactions.jpeg';
-import github from './assets/images/github.jpeg';
+import githublogo from './assets/images/githublogo.jpeg';
 
 function App() {
   return (
@@ -109,8 +109,10 @@ function App() {
           <img src={linkedinlogo} alt="LinkedIn" className="linkedin-logo" /> 
           <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
         </p>
-        <img src={github} alt="GitHub" className="github-logo" /> 
-          <a href="https://github.com/Kanilive1995"> GitHub Profile</a>
+        <p>
+          <img src={githublogo} alt="GitHub" className="github-logo" /> 
+          <a href="https://github.com/Kanilive1995"> Kani's Repositories</a>
+        </p>
       </section>
     </>
   );
