@@ -4,6 +4,8 @@ import linkedinlogo from './assets/images/linkedinlogo.jpeg';
 import updatedHeadshot from './assets/images/updatedheadshot.jpeg';
 import dashboard from './assets/images/dashboard.jpeg';
 import linuxinstalled from './assets/images/linuxinstalled.jpeg';
+import gitactions from './assets/images/gitactions.jpeg';
+import github from './assets/images/github.jpeg';
 
 function App() {
   return (
@@ -50,7 +52,7 @@ function App() {
 
       {/* PROJECTS */}
       <section className="projects" id="projects">
-        <h2>Projects</h2>
+        <h2>Projects/Hands on Experience</h2>
         <div className="grid">
           <div className="project-card">
             <img src={dashboard} alt="Splunk Dashboard" />
@@ -80,6 +82,19 @@ function App() {
               </p>
             </div>
           </div>
+
+          <div className="project-card">
+            <img src={gitactions} alt="Git Actions" />
+            <div className="overlay">
+              <h3>Git Actions</h3>
+              <p>Created GitHub Actions workflows for automated CI/CD pipelines</p>
+              <p> Developed and implemented GitHub Actions workflows to automate testing, building, and deployment processes.
+                Configured triggers for workflows based on events such as push, pull request, and release creation.
+                Integrated third-party services and tools to enhance the CI/CD pipeline efficiency and reliability.
+                Monitored workflow executions and optimized performance by reducing build times and resource usage.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -94,6 +109,8 @@ function App() {
           <img src={linkedinlogo} alt="LinkedIn" className="linkedin-logo" /> 
           <a href="https://www.linkedin.com/in/kani-moore-singleton-883730137/"> Kani Moore-Singleton</a>
         </p>
+        <img src={github} alt="GitHub" className="github-logo" /> 
+          <a href="https://github.com/Kanilive1995"> GitHub Profile</a>
       </section>
     </>
   );
