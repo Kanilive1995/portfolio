@@ -87,8 +87,8 @@ function App() {
             <img src={gitactions} alt="Git Actions" />
             <div className="overlay">
               <h3>Git Actions</h3>
-              <p>Created GitHub Actions workflows for automated CI/CD pipelines</p>
-              <p> Developed and implemented GitHub Actions workflows to automate testing, building, and deployment processes.
+              <p>Automated CI/CD pipelines</p>
+              <p>Developed and implemented GitHub Actions workflows to automate testing, building, and deployment processes.
                 Configured triggers for workflows based on events such as push, pull request, and release creation.
                 Integrated third-party services and tools to enhance the CI/CD pipeline efficiency and reliability.
                 Monitored workflow executions and optimized performance by reducing build times and resource usage.
