@@ -130,6 +130,11 @@ p {
   justify-content: center;
   width: 300px;
   height: 300px;
+  transition: transform 0.4s ease;
+}
+
+.tools-used ul li:hover {
+  transform: translateY(-10px);
 }
 
 .tools-used ul li img {
